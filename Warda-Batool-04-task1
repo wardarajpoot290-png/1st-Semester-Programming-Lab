@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b;
+	int s=(a+b);
+	int d=(a-b);
+	int m=(a*b);
+	int r=(a/b);
+	int n=(a%b);
+	cout<<"Enter first integer:";
+	cin>>a;
+	cout<< "Enter second integer:";
+	cin>>b;
+	cout<< "Addition="<<s<<endl;
+	cout<< "Subtraction="<<d<<endl;
+	cout<< "Multiplication="<<m<<endl;
+	cout<< "division="<<r<<endl;
+	cout<< "Modolus="<<n<<endl;
+	return 0;
+	
+}
